@@ -105,14 +105,6 @@ while(digitalRead(10)==LOW)
 
 while(1)
 {
-    movimiento_frente();
-    delay(400);
-    movimiento_izquierda();
-    delay(200);
-}
-/*
-while(1)
-{
 int aux_switch_case=funcion_ultrasonido();
 
     #ifdef debug
@@ -263,7 +255,7 @@ switch (aux_switch_case)
   }
 
  }
- */
+
 }
 
 // ---------------------------------
